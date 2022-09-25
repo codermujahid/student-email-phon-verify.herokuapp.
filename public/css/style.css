@@ -1,0 +1,51 @@
+
+
+
+tbody.mimi tr td img {
+    width: 40px;
+    border-radius: 2px;
+}
+.uploade_img img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+input#uploade_student_photo {
+    display: none;
+}
+
+.preload-student{
+    max-width: 100%;
+}
+
+
+.container.my-5.student-single img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+
+.container.my-5.student-single {
+   
+    text-align: center;
+   
+}
+
+
+.user-info{
+    text-align: center;
+}
+a.btn.btn-sm.btn-info {
+    text-align: center !important;
+    display: block;
+}
+.user-info img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}

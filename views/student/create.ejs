@@ -1,0 +1,65 @@
+
+
+
+
+
+<div class="container my-5 student-table" >
+    <div class="row justify-content-center" >
+        <div class="col-md-6">
+            <a class="btn btn-sm btn-primary" href="/student">Back</a>
+            <br>
+            <br>
+            <div class="card shadow">
+                <div class="card-header">
+                    <h2>Add New Student</h2>
+                </div>
+                <div class="card-body">
+
+                    <form action="/student/create" method="POSt" enctype="multipart/form-data">
+                        <div class="my-3">
+                            <label for="">Name</label>
+                            <input name="name" type="text" class="form-control">
+                        </div>
+                        <div class="my-3">
+                            <label for="">Email</label>
+                            <input name="email" type="text" class="form-control">
+                        </div>
+                        <div class="my-3">
+                            <label for="">Cell</label>
+                            <input name="cell" type="text" class="form-control">
+                        </div>
+                        <div class="my-3">
+                            <label for="">Location</label>
+                            <select name="location" id="" class="form-control">
+                            <option value="">-Select-</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Khulna">Khulna</option>
+                            <option value="Bogura">Bogura</option>
+
+                            </select>
+                         </div>
+                            
+                        <div class="my-3  class="in-dp-non" ">
+                            <label for="">Photo</label>
+                            <br>
+                            <img class="preload-student" src="" alt="">
+                            <br>
+                            <label class="uploade_img" for="uploade_student_photo"> 
+                                <img src="https://camo.githubusercontent.com/09e55b5e6a65a3ba9e38ed4de0f96ddd8ad46ba5c57b3e94d05222e0f127402a/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f323037383234352f3235393331332f35653833313336322d386362612d313165322d383435332d6536626439353663383961342e706e67" alt="">
+                            </label>
+                            <input name="sudent-photo" type="file"  id="uploade_student_photo">
+                        </div>
+                        <div class="my-3">
+                             <input type="submit" class="btn btn-sm btn-primary w-100" value="create" name="" id="">
+                        </div>
+    
+
+                    </form>
+                    
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

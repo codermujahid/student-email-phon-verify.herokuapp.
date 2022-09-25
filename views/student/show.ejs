@@ -1,0 +1,30 @@
+
+
+<div class="container my-5 student-single" >
+    <div class="row justify-content-center" >
+        <div class="col-md-6">
+            <a class="btn btn-sm btn-primary" href="/student">Back</a>
+            <br>
+            <br>
+            <div class="card shadow">
+                <div class="card-body">
+
+                    <% if (students.photo === 'avatar.png') { %>
+                            
+                        <img src="/images/avatar.png" alt="">
+
+                     <% } else { %>
+
+                       <img src="/images/students/<%= students.photo %>" alt="">
+
+                    <% } %> 
+
+                     <h1 class=""><%= students.name %></h1>
+                     <p><%= students.cell %></p>
+                     <p><%= students.email %></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
